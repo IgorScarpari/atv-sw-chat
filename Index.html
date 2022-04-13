@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Exercício CHAT</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body onload="LoadList()">
+    <div id="page">
+        <header>
+            <h1>Atendimento on-line</h1>
+        </header>
+
+        <form id="formAdd" action="index.html" method="post" visible="false">
+            <ul id="listMessage">
+                <li class="empty"></li>
+            </ul>
+            <footer>
+
+                <div class="radio">
+                    <input type="radio" name="type" value="A" checked /> A<br />
+                    <input type="radio" name="type" value="U" /> U<br />
+                </div>
+
+                <div class="input">
+                    <input type="text" class="form-control" id="message" placeholder="Digite sua mensagem..." value=""
+                        autofocus></input>
+                </div>
+                <div class="row-button">
+                    <button type="submit" id="send">Enviar</button>
+                </div>
+            </footer>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

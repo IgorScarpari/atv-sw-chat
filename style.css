@@ -1,0 +1,100 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    font-family: Arial;
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+}
+
+#page   {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid black;
+    margin: 10px;
+    align-items: center;
+}
+
+header  {
+    display: flex;
+    border-bottom: 3px solid black;
+    color: blue;
+    align-items: center;
+    padding: 10px;
+    font-family: Comic;
+}
+
+form    {
+    padding: 12px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+li  {
+    list-style-type: none;
+    visibility: hidden;
+    margin-bottom: 16px;
+    border: 2px solid black;
+    padding: 6px;
+    width: 70%;
+}
+
+form .input-title-user label{
+    display: block;
+    visibility: hidden;
+    font-weight: bold;
+    margin-bottom:  4px;
+    text-align: right;  
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+footer .input{
+    flex: 1;
+}
+
+footer .radio{
+    padding: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom:  4px;
+    text-align: right;
+    border-radius: 6px; 
+}
+
+footer .input input{
+    font-size: 16px;
+    padding: 6px 16px;
+    border: 3px solid black;
+    border-radius: 6px;
+    width: 100%;
+}
+
+footer .row-button{
+    justify-content: right;
+    align-items: center;
+    padding: 4px;
+}
+
+footer .row-button button{
+    font-size: 16px;
+    border: 3px solid black;
+    background-color: gainsboro;
+    color: green;
+    padding: 6px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+footer .row-button button:hover{
+    background-color: gray;
+}
